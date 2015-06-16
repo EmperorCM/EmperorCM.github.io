@@ -6,10 +6,10 @@ body{min-width:1200px;background:#ccc;}
 
 @font-face {
   font-family: 'iconfont';
-  src: url('http://at.alicdn.com/t/font_1407661449_4988534.eot'); /* IE9*/
+  src: url(../../../../at.alicdn.com/t/font_1407661449_4988534.eott'); /* IE9*/
   src: url('http://at.alicdn.com/t/font_1407661449_4988534.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://at.alicdn.com/t/font_1407661449_4988534.woff') format('woff'), /* chrome、firefox */
-  url('http://at.alicdn.com/t/font_1407661449_4988534.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url(../../../../at.alicdn.com/t/font_1407661449_4988534.wofff') format('woff'), /* chrome、firefox */
+  url(../../../../at.alicdn.com/t/font_1407661449_4988534.ttff') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url('http://at.alicdn.com/t/font_1407661449_4988534.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
     

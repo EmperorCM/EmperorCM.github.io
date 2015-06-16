@@ -1,1 +1,0 @@
-<?phpclass aboutAction extends HomeAction {        public function index() {        $this->display();    }}?>
