@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=7" />
+        <title>单页编辑</title>
+        <link href="{:C('WEB_URL')}Public/admin/style/base.css" rel="stylesheet" type="text/css" />
+        <link href="{:C('WEB_URL')}Public/admin/style/master.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/jquery.js"></script>
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/base.js"></script>
+        <script type="text/javascript" charset="utf-8" src="{:C('WEB_URL')}Public/admin/kindeditor/kindeditor.js"></script>
+        <script type="text/javascript">
+            KE.show({
+                id : 'content1',
+                items : [
+                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                    'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                    'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>单页编辑<a href="javascript:history.go(-1)">返回</a></h2>
+            <form action="{:U('updata')}" method="post" enctype="multipart/form-data">
+                <table class="form">
+                    <tr><td class="tkey"><span class="red">*</span>标题：</td><td><input type="text" name="title" id="title" size="60" value="{$pages.title}" class="input_text" /></td></tr>
+                    <tr><td class="tkey">图片描述：</td><td><img src="{:C('WEB_URL')}Uploads/smallImages/{$pages.img}" alt="{$pages.title}" /><br /><input type="file" name="img" /></td></tr>
+                    <tr>
+                        <td class="tkey"><span class="red">*</span>内容：</td>
+                        <td>
+                            <textarea id="content1" name="content" style="width:600px;height:300px;visibility:hidden;">{$pages.content}</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tkey"><input type="hidden" name="id" id="id" value="{$pages.id}" /></td>
+                        <td><input type="submit" value="确定" class="but_blue" /></td>
+                    </tr>
+                </table>
+            </form>
+            <p class="hr_10"></p>
+            <div class="pages fright">{$page}</div>
+        </div>
+    </body>
+</html>

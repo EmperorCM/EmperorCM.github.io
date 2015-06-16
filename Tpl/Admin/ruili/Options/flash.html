@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=7" />
+        <title>扩展设置</title>
+        <link href="{:C('WEB_URL')}Public/admin/style/base.css" rel="stylesheet" type="text/css" />
+        <link href="{:C('WEB_URL')}Public/admin/style/master.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/jquery.js"></script>
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/drag.js"></script>
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/base.js"></script>
+        <script>
+            $(function(){
+                $("#slideImg > h4").drag("#slideImg", {
+                    lockedR : false,
+                    lockedX : false,
+                    lockedY : false
+                })
+            })
+            
+            function lookImg(url){
+                url="{:C('WEB_URL')}Uploads/"+url;
+                $("#slideImg").show().find(".slideImg").attr("src",url);
+            }
+        </script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>幻灯片设置</h2>
+            <volist name="slide" id="vo">
+                <form method="post" action="{:U('updateSlide')}/id/{$i}" enctype="multipart/form-data">
+                    <table class="form">
+
+                        <tr>
+                            <td class="tkey">图片{$i}：</td>
+                            <td colspan="3">标题：<input type="text" name="title" value="{$vo.title}" size="50" class="input_text" />&nbsp;链接：<input type="text" name="url" value="{$vo.url}"  class="input_text" />&nbsp;<br />图片：<input type="file" name="pic" />&nbsp;<a href="javascript:lookImg('{$vo.pic}')">查看现图</a></td>
+                            <td align="center"><input type="submit" value="确定" class="but_blue" /></td>
+                        </tr>
+
+                    </table>
+
+                </form>
+            </volist>
+        </div>
+        <div id="slideImg" class="windows hide">
+            <h4><a href="javascript:close('#slideImg')">关闭</a>幻灯图片</h4>
+            <img src="" class="slideImg" style="margin:10px;"/>
+        </div>
+    </body>
+</html>

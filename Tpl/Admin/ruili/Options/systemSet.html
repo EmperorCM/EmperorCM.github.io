@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=7" />
+        <title>网站设置</title>
+        <link href="{:C('WEB_URL')}Public/admin/style/base.css" rel="stylesheet" type="text/css" />
+        <link href="{:C('WEB_URL')}Public/admin/style/master.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/jquery.js"></script>
+        <script type="text/javascript" src="{:C('WEB_URL')}Public/admin/js/base.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <h2>系统设置</h2>
+            <form method="post" action="{:U('updateSystem')}">
+                <table class="form">
+                    <tr><td class="tkey">缩略图宽度：</td><td><input type="text" name="thumbW" value="{$set.thumbW}" class="input_text" />&nbsp;px&nbsp;&nbsp;<span class="red">此参数将在用户上传图片并生成缩略图时生效</span></td></tr>
+                    <tr><td class="tkey">缩略图高度：</td><td><input type="text" name="thumbH" value="{$set.thumbH}" class="input_text" />&nbsp;px&nbsp;&nbsp;<span class="red">此参数将在用户上传图片并生成缩略图时生效</span></td></tr>
+                    <tr><td class="tkey">幻灯片宽度：</td><td><input type="text" name="slideW" value="{$set.slideW}" class="input_text" />&nbsp;px</td></tr>
+                    <tr><td class="tkey">幻灯片高度：</td><td><input type="text" name="slideH" value="{$set.slideH}" class="input_text" />&nbsp;px</td></tr>
+                    <tr><td class="tkey">列表页显示数：</td><td><input type="text" name="textListNum" value="{$set.textListNum}" class="input_text" /></td></tr>
+                    <!--<tr><td class="tkey">缩略图列表显示数：</td><td><input type="text" name="picListNum" value="{$set.picListNum}" class="input_text" /></td></tr>-->
+                    <tr><td class="tkey">上传图片后缀：</td><td><input type="text" name="fileSuffix1" value="{$set.fileSuffix1}" class="input_text" />&nbsp;<span class="red">后缀名之间请用","隔开</span></td></tr>
+                    <tr><td class="tkey">手册附件后缀：</td><td><input type="text" name="fileSuffix2" value="{$set.fileSuffix2}" class="input_text" />&nbsp;<span class="red">后缀名之间请用","隔开</span></td></tr>
+                    <tr><td class="tkey">视频附件后缀：</td><td><input type="text" name="fileSuffix3" value="{$set.fileSuffix3}" class="input_text" />&nbsp;<span class="red">后缀名之间请用","隔开</span></td></tr>
+                    <tr><td class="tkey">工具附件后缀：</td><td><input type="text" name="fileSuffix4" value="{$set.fileSuffix4}" class="input_text" />&nbsp;<span class="red">后缀名之间请用","隔开</span></td></tr>
+                    <tr><td class="tkey"></td><td><input type="submit" value="确定" class="but_blue"  /></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

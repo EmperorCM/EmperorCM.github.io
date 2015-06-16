@@ -1,0 +1,82 @@
+ <div class="header">
+        <div class="header-nav clearfix">
+            <ul class="nav-list clearfix">
+                <li class="index">
+                    <a href="/" class="logo"></a>
+                </li>
+                <li>
+                    <a href="/news">新闻资讯</a>
+                    <ul class="sub-list clearfix">
+                        <li>
+                            <a href="/news/m_1">资讯列表</a>
+                        </li>
+                        <li>
+                            <a href="/news/m_2">最新动态</a>
+                        </li>
+                        <li>
+                            <a href="/news/m_3">活动公告</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/model">模卡推荐</a>
+                    <ul class="sub-list clearfix">
+                        <li>
+                            <a href="/mList_1.html">模卡排行</a>
+                        </li>
+                        <li>
+                            <a href="/model">模卡总览</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shoot">造型摄影</a>
+                    <ul class="sub-list clearfix">
+                        <li>
+                            <a href="/shoot">推荐团队</a>
+                        </li>
+                        <li>
+                            <a href="#">强大团队</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">排行榜</a>
+                    <ul class="sub-list clearfix">
+                        <li>
+                            <a href="#">女生排行榜</a>
+                        </li>
+                        <li>
+                            <a href="#">人气排行榜</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">星座运势</a>
+                </li>
+                <li>
+                    <a href="{:C('WEB_URL')}girl">女神联盟</a>
+                </li>
+                <li>
+                    <a href="/p_419">国王</a>
+                </li>
+                <li class="chinajoy">
+                    <a href="/p_451">2015 Chinajoy<br />报名入口</a>
+                </li>
+            </ul>
+            <div class="login-reg">
+                <empty name="_SESSION['user']">
+                    <a href="javascript:void(0)" class="link" data-type="login">登录</a>
+                    <a href="javascript:void(0)" class="link" data-type="reg">免费注册</a>
+                <else />
+                    您好：{$_SESSION['user']['username']} <a href="/Index/logout">退出</a>
+                </empty>
+            </div>
+            <style>
+                .header-nav .nav-list{border-right:0px;}
+                .nav-list > li.chinajoy{background:url("/Public/ruili/images/chinajoy.png") no-repeat;width:92px;height:57px;line-height: 20px;border-right:0px;position: absolute;
+right: -92px;}
+                .nav-list > li.chinajoy a{width:90px;color:#fff;}
+            </style>
+        </div>
+    </div>

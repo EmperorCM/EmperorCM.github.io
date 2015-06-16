@@ -1,0 +1,1330 @@
+[ 2015-01-06T17:12:37+08:00 ] 180.153.163.208 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005390s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) /data/nginx/html/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2015-01-06T17:41:18+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000715s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.004781s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000686s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000108s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000109s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-01-06T17:42:35+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000532s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000049s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000255s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000198s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-01-06T17:44:14+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000510s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000574s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000053s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-01-06T18:47:29+08:00 ] 61.160.247.181 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000752s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000178s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-01-06T18:48:09+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000481s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000506s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013213s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-01-06T18:49:36+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000483s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000505s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013626s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-01-06T18:49:42+08:00 ] 119.147.146.192 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000475s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000535s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000056s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013492s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-01-06T18:50:58+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000487s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000526s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013177s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000220s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-01-06T18:52:56+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000547s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000748s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-01-06T18:53:41+08:00 ] 180.166.96.162 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000540s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000535s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-01-06T18:54:32+08:00 ] 180.166.96.162 /Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined index: AdminAuthInfo /data/nginx/html/Lib/Action/Admin/IndexAction.class.php 第 7 行.
+
+[ 2015-01-06T18:54:32+08:00 ] 180.166.96.162 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003583s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2015-01-06T18:54:39+08:00 ] 180.166.96.162 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `nb_admin` [ RunTime:0.000745s ]
+SQL: SELECT * FROM `nb_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: language /data/nginx/html/Lib/Action/BaseAction.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `nb_admin` [ RunTime:0.000401s ]
+SQL: UPDATE `nb_admin` SET `login_time`=1420541679,`last_ip`='180.166.96.162',`login_count`=login_count+1 WHERE ( `username` = 'admin' ) [ RunTime:0.002581s ]
+
+[ 2015-01-06T18:54:39+08:00 ] 180.166.96.162 /Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000618s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000052s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000156s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-01-06T18:54:39+08:00 ] 180.166.96.162 /Admin/Index/main.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `nb_admin` [ RunTime:0.000565s ]
+SQL: SELECT * FROM `nb_admin` WHERE ( `username` = 'admin' )  [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-01-06T18:54:44+08:00 ] 180.166.96.162 /Admin/Admin/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `nb_admin` [ RunTime:0.000633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_admin` LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+SQL: SELECT * FROM `nb_admin` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000190s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given /data/nginx/html/Runtime/Cache/Admin/a0dcba376b5d7268f6e9f42bb596458a.php 第 55 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000182s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-01-06T18:54:45+08:00 ] 180.166.96.162 /Admin/Nav/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `nb_nav` [ RunTime:0.000605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_nav` LIMIT 1   [ RunTime:0.000126s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+SQL: SELECT * FROM `nb_nav` LIMIT 0,10   [ RunTime:0.000130s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000153s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-01-06T18:54:48+08:00 ] 180.166.96.162 /Admin/Nav/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `nb_nav` [ RunTime:0.000532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_nav` LIMIT 1   [ RunTime:0.000056s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+SQL: SELECT * FROM `nb_nav` LIMIT 0,10   [ RunTime:0.000052s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-01-06T18:54:50+08:00 ] 180.166.96.162 /Admin/Nav/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-01-06T18:54:52+08:00 ] 180.166.96.162 /Admin/Nav/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-01-06T18:54:53+08:00 ] 180.166.96.162 /Admin/Model/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `nb_model` [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/ModelAction.class.php 第 10 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_model` LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/ModelAction.class.php 第 12 行.
+SQL: SELECT * FROM `nb_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.000178s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2015-01-06T18:54:54+08:00 ] 180.166.96.162 /Admin/Model/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `nb_model` [ RunTime:0.000599s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/ModelAction.class.php 第 10 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_model` LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/ModelAction.class.php 第 12 行.
+SQL: SELECT * FROM `nb_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.000058s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+NOTIC: [8] Undefined index: class /data/nginx/html/Runtime/Cache/Admin/f033d2c9b17da1e734bd74a044aca9b0.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000154s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-01-06T18:54:56+08:00 ] 180.166.96.162 /Admin/Label/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `nb_label` [ RunTime:0.000601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_label` LIMIT 1   [ RunTime:0.000140s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+SQL: SELECT `id`,`title`,`label_name`,`create_time`,`user` FROM `nb_label` WHERE ( `language` = 'cn' ) LIMIT 0,10   [ RunTime:0.000173s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: adddate /data/nginx/html/Runtime/Cache/Admin/1fc2e07ec41afa02a1a08f2310ba31e8.php 第 41 行.
+NOTIC: [8] Undefined index: adddate /data/nginx/html/Runtime/Cache/Admin/1fc2e07ec41afa02a1a08f2310ba31e8.php 第 41 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-01-06T18:54:57+08:00 ] 180.166.96.162 /Admin/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000752s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/NewsAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000057s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Admin/NewsAction.class.php 第 15 行.
+SQL: SELECT `id`,nb_news.title,nb_class.title as class,`content`,nb_news.create_time,`user`,`top`,`hit` FROM `nb_news` LEFT JOIN nb_class ON nb_news.classid=nb_class.classid ORDER BY id desc LIMIT 0,20   [ RunTime:0.000541s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-01-06T18:58:16+08:00 ] 119.147.146.189 /Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: AdminAuthInfo /data/nginx/html/Lib/Action/Admin/IndexAction.class.php 第 7 行.
+
+[ 2015-01-06T18:58:16+08:00 ] 119.147.146.189 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000148s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2015-01-06T18:58:16+08:00 ] 119.147.146.189 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-01-06T19:01:14+08:00 ] 180.153.206.22 /Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined index: AdminAuthInfo /data/nginx/html/Lib/Action/Admin/IndexAction.class.php 第 7 行.
+
+[ 2015-01-06T19:01:14+08:00 ] 180.153.206.22 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000161s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-01-06T19:03:53+08:00 ] 101.226.66.178 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2015-01-06T20:05:51+08:00 ] 220.181.132.217 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000518s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000542s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000194s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-01-06T20:06:08+08:00 ] 220.181.132.199 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000516s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000525s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013236s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-01-06T22:18:46+08:00 ] 116.231.3.152 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000515s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000751s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000271s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-01-06T22:18:54+08:00 ] 116.231.3.152 /news.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000529s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 149 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 154 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,6   [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 155 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_label` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `nb_label` WHERE ( `label_name` = 'hotAct' )  [ RunTime:0.000170s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007839s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2015-01-06T22:18:55+08:00 ] 116.231.3.152 /p_410
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:p_410
+
+[ 2015-01-06T22:20:11+08:00 ] 116.231.3.152 /Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: AdminAuthInfo /data/nginx/html/Lib/Action/Admin/IndexAction.class.php 第 7 行.
+
+[ 2015-01-06T22:20:12+08:00 ] 116.231.3.152 /Admin/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-01-06T22:25:07+08:00 ] 116.231.3.152 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000504s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-01-06T22:25:08+08:00 ] 116.231.3.152 /model.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000501s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `nb_model` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `nb_model` LIMIT 0,10   [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/ruili/Public/fotter.html): failed to open stream: No such file or directory /data/nginx/html/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 695 行.
+SQL: SHOW COLUMNS FROM `nb_label` [ RunTime:0.000355s ]
+SQL: SELECT * FROM `nb_label` WHERE ( `label_name` = 'hotAct' )  [ RunTime:0.000055s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2015-01-06T22:25:09+08:00 ] 116.231.3.152 /mList_413.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:mList_413
+
+[ 2015-01-06T22:25:11+08:00 ] 116.231.3.152 /mList_413.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:mList_413
+
+[ 2015-01-06T22:26:09+08:00 ] 180.155.137.221 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000492s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000539s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000046s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-01-06T22:29:33+08:00 ] 180.155.137.221 /about.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000725s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000189s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-01-06T22:30:37+08:00 ] 180.155.137.221 /girl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000516s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-01-06T22:32:19+08:00 ] 101.226.33.218 /girl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000057s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006561s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000159s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-01-06T22:32:22+08:00 ] 101.226.65.102 /mList_413.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:mList_413
+
+[ 2015-01-06T22:33:05+08:00 ] 101.226.33.203 /p_410
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:p_410
+
+[ 2015-01-06T22:33:58+08:00 ] 101.226.51.227 /model.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000489s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `nb_model` [ RunTime:0.000435s ]
+SQL: SELECT * FROM `nb_model` LIMIT 0,10   [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/ruili/Public/fotter.html): failed to open stream: No such file or directory /data/nginx/html/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 695 行.
+SQL: SHOW COLUMNS FROM `nb_label` [ RunTime:0.000376s ]
+SQL: SELECT * FROM `nb_label` WHERE ( `label_name` = 'hotAct' )  [ RunTime:0.000055s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-01-06T22:34:52+08:00 ] 101.226.65.108 /about.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000518s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000565s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2015-01-06T22:41:27+08:00 ] 101.226.33.219 /about.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000486s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000548s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000047s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2015-01-06T22:44:27+08:00 ] 101.226.33.205 /news.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000492s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000606s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 149 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 154 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,6   [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/newsAction.class.php 第 155 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000050s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_label` [ RunTime:0.000420s ]
+SQL: SELECT * FROM `nb_label` WHERE ( `label_name` = 'hotAct' )  [ RunTime:0.000056s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2015-01-06T23:51:29+08:00 ] 222.186.21.206 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `nb_links` [ RunTime:0.000520s ]
+SQL: SELECT * FROM `nb_links`  [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: ca /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `nb_news` [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `nb_class` [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 137 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nb_news` LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 51 行.
+NOTIC: [2] Division by zero /data/nginx/html/Lib/ORG/Page.class.php 第 75 行.
+NOTIC: [8] Undefined index: header /data/nginx/html/Lib/ORG/Page.class.php 第 133 行.
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 142 行.
+SQL: SELECT `id`,`title`,`classid`,`hit`,`create_time`,`user`,`intro`,`fileType`,`pic`,`comms` FROM `nb_news` ORDER BY id desc LIMIT 0,18   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: map /data/nginx/html/Lib/Action/Home/IndexAction.class.php 第 143 行.
+SQL: SELECT `title` FROM `nb_class` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT * FROM `nb_class`  [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `nb_options` [ RunTime:0.000525s ]
+SQL: SELECT `sitekeyword` FROM `nb_options` LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `sitedescription` FROM `nb_options` LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `sitename` FROM `nb_options` LIMIT 1   [ RunTime:0.000064s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+

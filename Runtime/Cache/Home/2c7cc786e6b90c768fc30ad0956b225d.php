@@ -1,0 +1,495 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="<?php echo Site('sitekeyword');?>" />
+        <meta name="description" content="<?php echo Site('sitedescription');?>" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title><?php echo Site('sitename');?></title>
+        <link href="<?php echo C('WEB_URL');?>Public/ruili/css/base.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo C('WEB_URL');?>Public/ruili/css/master.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+<div id="main">
+    <ul>
+        <li id="page1" class="page">
+            <div class="warp">
+                <div id="header">
+                    <h1><img src="<?php echo C('WEB_URL');?>Public/ruili/images/logo.png" alt=""></h1>
+                    <div class="menu">
+                        <ul>
+                            <li class="current"><a href="javascript:void(0)" data-tab="0">关于我们</a></li>
+                            <li><a href="javascript:void(0)" data-tab="1">品牌形象</a></li>
+                        </ul>
+                        <b></b>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="tab1">
+                    <span class="tImg"><embed src="<?php echo C('WEB_URL');?>Public/ruili/flash/p1.swf" quality="high" width="797" height="473" align="middle" allowfullscreen="true" allowscriptaccess="always" type="application/x-shockwave-flash" wmode="transparent" style="position: relative;z-index: 99;"/></span>
+                        <div class="box">
+                            <p class="title">关于我们/About us</p>
+                            <p class="txt">团队支撑，专业打造。为你创作的每一帧光影，都独一无二。</p>
+                            <p class="line"></p>
+                            
+                            <a href="javascript:void(0)"  class="iconContainer">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                                        <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                                        <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+                                    </svg>
+                                查看详情
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tab2">
+                        <span class="tImg"><img src="<?php echo C('WEB_URL');?>Public/ruili/images/page1_3.jpg" /></span>
+                        <div class="box">
+                            <p class="title">品牌形象/Brand image</p>
+                            <p class="txt">专业创新，匠心独具，钟情于创作最美的你。</p>
+                            <p class="line"></p>
+                            
+                            <a href="javascript:void(0)"  class="iconContainer">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                                        <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                                        <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+                                    </svg>
+                                查看详情
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <b><img src="<?php echo C('WEB_URL');?>Public/ruili/images/page1_1.png" width="1582px" height="1582px" id="an1"></b>
+            <b><img src="<?php echo C('WEB_URL');?>Public/ruili/images/page1_2.png" width="1678px" height="1340px" id="an2"></b>
+<!--            <div class="nextPage">
+                <p class="lineLeft"></p>
+                <p class="lineRight"></p>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                    <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                    <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+                </svg>
+            </div> -->
+
+        </li>
+        <li id="page2" class="page">
+            <div id="roundabout">
+                <p>
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/1.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/2.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/3.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/4.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/5.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/6.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/7.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/8.jpg">
+                    <img src="<?php echo C('WEB_URL');?>Public/ruili/images/person/9.jpg">
+                </p>
+            </div>
+            <b  onclick="view.changeImg(0)"></b>
+
+        </li>
+        <li id="page3" class="page">
+            <div class="warp">&nbsp;
+                <h3>综合业务/Integrated Services</h3>
+                <div id="flash3"></div>
+            </div>
+
+        </li>
+        <li id="page4" class="page">
+            <div class="warp">&nbsp;
+                <h3>旗下品牌</h3>
+                <div id="flash4" class="tcenter mt20"></div>
+            </div>
+        </li>
+        <li id="page5" class="page">
+            <div class="warp">&nbsp;
+                <h3>加入我们/Join Us</h3>
+                <div class="contact">
+                    <ul>
+                        <li class="address">
+                            <b></b><p>公司地址：上海市虹口区东江湾路188号空间创意园区F1，房3号线虹口足球场2号口
+</p>
+                        </li>
+                        <li class="tel">
+                            <b></b><p>联系电话：021-63598089</p>
+                        </li>
+                        <li class="email">
+                            <b></b><p>官方邮箱：512147451@qq.com</p>
+                        </li>
+                        <li class="copyright">
+                            <b></b><p>版权所有©2007-2013 上海瑞丽摄影有限公司</p>
+                        </li>
+                        <li class="desc">
+                            <b></b>
+                            <p>瑞丽摄影是一个集聚智慧、和而不同、有着丰富的行业经验，专业、认真、一丝不苟的团队。更擅长探索画面细节、推敲画面关系，高技术含量的摄影、期的设计团队，为客户提供超越期望值的至佳服务，令品牌提升和销售增值，是客户有力的战略伙伴。质量承诺：会高标准完成项目工作，完善每个环节，公司站客户角度考虑问题，尽全力使每个细节做到完美，让客户感觉舒心，省心，将会是您最放心的视觉服务上。交片期承若：本公司将保质、保量、按合同履行约定的片日期准时交片。售后服务：公司在确保精品作品的同事，即使交稿确认后，也可根据客户随时的改动和需求进一步完善修改作品。</p>
+                        </li>
+                        <li class="sns">
+                            <a href="javascript:void(0)" class="iconfont">&#xe603;</a>
+                            <a href="javascript:void(0)" class="iconfont">&#xe608;</a>
+                            <a href="javascript:void(0)" class="iconfont" id="J_weixin">&#xe606;</a>
+                            <img src="<?php echo C('WEB_URL');?>Public/ruili/images/weixin.png" id="J_weixinCode"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="userInfo">
+                    <a href="javascript:void(0)" class="btnReg" id="J_loginBtn">登录</a>
+                </div>
+            </div>
+
+        </li>
+    </ul>
+    <div class="cloudes">
+    <div class="cloud cloud3 group1" data-top="492px" data-left="-100px"></div>
+    <div class="cloud cloud2 group1" data-top="249px" data-left="1287px"></div>
+    <div class="cloud cloud5 group1" data-top="1027px" data-left="1497px"></div>
+    <div class="cloud cloud16 group1" data-top="1532px" data-left="-100px"></div>
+    <div class="cloud cloud8 group1" data-top="1940px" data-left="-100px"></div>
+    <div class="cloud cloud10 group1" data-top="2084px" data-left="1170px"></div>
+    <div class="cloud cloud18 group1" data-top="1649px" data-left="930px"></div>
+    <div class="cloud cloud22 group1" data-top="3692px" data-left="1206px"></div>            
+    <div class="cloud cloud19 group1" data-top="3077px" data-left="-100px"></div>
+    <div class="cloud cloud4 group2" data-top="1340px" data-left="910px"></div>
+    <div class="cloud cloud13 group2" data-top="2407px" data-left="-116px"></div>
+    <div class="cloud cloud14 group2" data-top="2033px" data-left="1043px"></div>
+    <div class="cloud cloud1 group3" data-top="362px" data-left="-100px"></div>
+    <div class="cloud cloud25 group3" data-top="459px" data-left="1215px"></div>
+    <div class="cloud cloud7 group3" data-top="1503px" data-left="1319px"></div>
+    <div class="cloud cloud6 group3" data-top="1141px" data-left="-100px"></div>
+    <div class="cloud cloud12 group3" data-top="2387px" data-left="-95px"></div>
+    <div class="cloud cloud11 group3" data-top="2263px" data-left="1438px"></div>
+    <div class="cloud cloud20 group3" data-top="3861px" data-left="1548px"></div>
+    <div class="cloud cloud23 group3" data-top="4264px" data-left="1178px"></div>
+    <div class="cloud cloud15 group3" data-top="3594px" data-left="-100px"></div>
+    <div class="cloud cloud17 group3" data-top="4020px" data-left="-100px"></div>
+</div>
+</div>
+
+<div id="nav">
+    
+    <div class="menu clearfix">
+        <div class="warp">
+            <ol>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </ol>
+            <ol>
+                <li><a href="/news/m_1">全部资讯</a></li>
+                <li><a href="/news/m_2">最新动态</a></li>
+                <li><a href="/news/m_3">活动公告</a></li>
+            </ol>
+            <ol>
+                <li>&nbsp;</li>
+                <li><a href="/mList_1.html">模卡排行</a></li>
+                <li><a href="/model/">模卡总览</a></li>
+            </ol>
+            <ol>
+                <li><a href="javascript:void(0)">&nbsp;</a></li>
+                <li><a href="/shoot">推荐案例</a></li>
+                <li><a href="/shoot">强大团队</a></li>
+            </ol>
+            <ol>
+                <li><a href="javascript:void(0)">&nbsp;</a></li>
+                <li><a href="javascript:void(0)">女神排行榜</a></li>
+                <li><a href="javascript:void(0)">人气排行榜</a></li>
+            </ol>
+            <ol>
+                <li><a href="javascript:void(0)">&nbsp;</a></li>
+                <li><a href="javascript:void(0)">&nbsp;</a></li>
+                <li><a href="javascript:void(0)">星座运势</a></li>
+            </ol>
+            <ol>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </ol>
+            <ol>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </ol>
+        </div>
+    </div>
+    <div class=navMain>
+        <ul class="clearfix">
+            <li><a href="<?php echo C('WEB_URL');?>" target="_blank"><em>官方首页</em>HOME</a></li>
+            <li><a href="<?php echo C('WEB_URL');?>news.html" target="_blank"><em>新闻资讯</em>NEWS</a></li>
+            <li><a href="<?php echo C('WEB_URL');?>model.html" target="_blank"><em>模卡推荐</em>MODEL</a></li>
+            <li><a href="/shoot" target="_blank"><em>摄影造型</em>GUIDE</a></li>
+            <li><a href="javascript:void(0)" target="_blank"><em>排行榜</em>CHARTS</a></li>
+            <li><a href="javascript:void(0)" target="_blank"><em>星座运势</em>HOROSCOPE</a></li>
+            <li><a href="<?php echo C('WEB_URL');?>girl.html" target="_blank"><em>女神联盟</em>RECHARGE</a></li>
+            <li><a href="<?php echo C('WEB_URL');?>about.html" target="_blank"><em>联系我们</em>CONTACT</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div id="menu">
+    <p class="hide"><a href="javascript:void(0)">隐藏</a></p>
+    <ul>
+        <li class="current iconContainer">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+            </svg>
+            关于我们
+        </li>
+
+        <li class="iconContainer">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+            </svg>
+            瑞丽风采
+        </li>
+        <li class="iconContainer">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+            </svg>
+            综合业务
+        </li>
+        <li class="iconContainer">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+            </svg>
+            旗下品牌
+        </li>
+        <li class="iconContainer">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="-2 -2 36 36">
+                <circle class="roundLine" cx="16" cy="16" r="16"></circle>
+                <path class="triangle" d="M12.02,20.222c0.015,0.066,0.024,0.131,0.053,0.191c0.004,0.01,0.002,0.02,0.008,0.03  c0.046,0.094,0.109,0.175,0.178,0.248c0.015,0.014,0.033,0.024,0.049,0.039c0.071,0.064,0.149,0.117,0.234,0.158  c0.029,0.013,0.058,0.026,0.089,0.038c0.109,0.04,0.223,0.068,0.341,0.069h0.001h0.001h0.001c0.002,0,0.004-0.001,0.006-0.001  c0.148-0.001,0.286-0.039,0.413-0.098c0.009-0.005,0.018-0.003,0.027-0.007l7.999-3.996c0.339-0.17,0.552-0.515,0.552-0.893  c0-0.378-0.214-0.724-0.552-0.894l-7.999-3.996c-0.01-0.005-0.019-0.004-0.029-0.008c-0.06-0.028-0.128-0.037-0.194-0.053  c-0.065-0.014-0.128-0.037-0.192-0.039c-0.011,0-0.02-0.006-0.031-0.006c-0.052,0-0.096,0.022-0.145,0.029  c-0.069,0.01-0.138,0.016-0.204,0.041c-0.062,0.023-0.115,0.061-0.171,0.096c-0.053,0.033-0.107,0.06-0.152,0.102  c-0.055,0.049-0.093,0.111-0.135,0.172c-0.028,0.039-0.065,0.067-0.087,0.111c-0.006,0.01-0.004,0.021-0.008,0.031  c-0.029,0.059-0.037,0.125-0.053,0.19c-0.016,0.067-0.038,0.13-0.04,0.196c0,0.011-0.006,0.02-0.006,0.03v7.992  c0,0.011,0.006,0.019,0.006,0.03C11.981,20.093,12.004,20.156,12.02,20.222z M13.974,18.38V13.62L18.737,16L13.974,18.38z"></path> 
+            </svg>
+            加入我们
+        </li>
+
+    </ul>
+</div>
+
+<div id="imgView" class="hide">
+    <div class="imgViewMain"> 
+        <img class="imgBig transitionFast">
+        <div class="thumbList"></div>
+        <p class="imgTxt"></p>
+        <a href="javascript:void(0);" class="btnPrev">&lt;</a>
+        <a href="javascript:void(0);" class="btnNext">&gt;</a>
+        <a href="javascript:void(0);" class="close">×</a>
+    </div>
+    <div class="fullBg"></div>
+</div>
+
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/jquery.1.72.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/jquery.roundabout.min.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/jquery.roundabout-shapes.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/jquery.queryloader2.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/main.js" type="text/javascript"></script>
+<script src="<?php echo C('WEB_URL');?>Public/ruili/js/photoView.js" type="text/javascript"></script>
+<script>
+
+   var imgList=[];
+   imgList.push({ "img":"<?php echo C('WEB_URL');?>Public/ruili/images/person/big1.jpg","txt":""});
+   imgList.push({ "img":"<?php echo C('WEB_URL');?>Public/ruili/images/person/big2.jpg","txt":""});
+   imgList.push({ "img":"<?php echo C('WEB_URL');?>Public/ruili/images/person/big3.jpg","txt":""});
+   imgList.push({ "img":"<?php echo C('WEB_URL');?>Public/ruili/images/person/big4.jpg","txt":""});
+
+    var view=new photoView({
+        "list":imgList,
+        "main":"#imgView"
+    });
+
+
+    $(document).ready(function() {  
+        $("body").queryLoader2({
+            "backgroundColor":"#FD4E8F",
+            "onLoadComplete":interactive.init()
+        });
+
+        $("#J_loginBtn").on("click",function(){
+            $("#loginReg").show();
+        })
+        
+   });
+
+    
+</script>
+
+<div class="dialog" id="loginReg">
+    <div class="dialog-mask"></div>
+    <div id="flipper">
+        <div class="dialog-content" id="login">
+            <a href="javascript:void(0)" class="close">×</a>
+            <div class="dialog-tit clearfix">
+                <img src="<?php echo C('WEB_URL');?>Public/ruili/images/logo.jpg" />
+                <p><span>使用邮箱/手机号登陆</span></p>
+            </div>
+            <form action="" id="formLogin">
+                
+                <ul>
+                    <li style="padding:5px;">
+                        <em class="msgTip"></em>
+                    </li>
+                    <li>
+                        <input type="text" name="username" placeholder="邮箱或手机" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="pwd" placeholder="密码"  class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="button" value="立即登录" class="btnOrange" id="J_submitLogin">
+                    </li>
+                    <li>
+                        <span class="reg-link">还没有成为瑞丽会员？<a href="javascript:void(0)" id="J_toReg">点击注册》</a></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="dialog-content" id="reg">
+            <a href="javascript:void(0)" class="close">×</a>
+            <div class="dialog-tit clearfix">
+                <img src="<?php echo C('WEB_URL');?>Public/ruili/images/logo.jpg" />
+                <p><span>使用邮箱/手机号注册</span></p>
+            </div>
+            <form action="" id="formReg">
+                <ul>
+                    <li style="padding:5px;">
+                        <em class="msgTip"></em>
+                    </li>
+                    <li>
+                        <input type="text" name="username" placeholder="邮箱或手机" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="pwd" placeholder="密码" id="J_pwd"  class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="conpwd" placeholder="确认密码" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="button" value="立即注册" class="btnOrange" id="J_submitReg">
+                    </li>
+                    <li>
+                        <span class="reg-link">已有帐号？<a href="javascript:void(0)" id="J_toLogin">立即登录</a></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="dialog-content hide" id="regSuccess">
+            <div class="dialog-tit clearfix">
+                <img src="<?php echo C('WEB_URL');?>Public/ruili/images/logo.jpg" />
+                <p><span>注册成功</span></p>
+            </div>
+            <p class="mt20 pt20">
+                <a href="javascript:void(0)" class="btnGreen" onclick="window.history.go(0)">确定</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/Public/ruili/js/formValidate.js"></script>
+<script>
+    (function(){
+        $("#J_toReg").on("click",function(){
+            //$("#flipper").addClass("flip");
+            $("#reg").show();
+            $("#login").hide();
+        })
+        $("#J_toLogin").on("click",function(){
+            //$("#flipper").removeClass("flip");
+            $("#login").show();
+            $("#reg").hide();
+        })
+
+        var loginVal=new FormValidate(
+                {
+                    "username":{ "reg":/(([\w._-])+@([\w_-])+((\.[\w_-]{2,6}){1,2})$)|(^(13|15|17|18|14)[0-9]{9}$)|(^\d{5,10}$)/,"error":"请输入正确的手机或邮箱"},
+                    "pwd":{"reg":"pwd","error":"密码格式错误，请重试！"},
+                },"#formLogin",this.callBack,true);
+
+        loginVal.msg=function(obj, status, msg){
+            msg=!status?msg:"";
+            $("#login .msgTip").html(msg);
+
+        }
+        loginVal.callBack=function(data){
+            var url="<?php echo U('login');?>";
+            $.ajax({
+                url:url,
+                type:"post",
+                dataTpye:"json",
+                data:data,
+                success:function(reg){
+                    if(reg.status==1){
+                        window.history.go(0);
+                    }else{
+                        $("#login .msgTip").html(reg.info);
+                    }
+                }
+            })
+        }
+
+        var regVal=new FormValidate(
+                {
+                    "username":{ "reg":/(([\w._-])+@([\w_-])+((\.[\w_-]{2,6}){1,2})$)|(^(13|15|18|14)[0-9]{9}$)/,"error":"请输入正确的手机或邮箱"},
+                    "pwd":{"reg":"pwd","error":"密码格式错误，请重试！"},
+                    "conpwd":{"reg":"conPwd","pwdDom":"#J_pwd","error":"两次输入密码不一致！"},
+                },"#formReg",this.callBack,true);
+
+        regVal.msg=function(obj, status, msg){
+            msg=!status?msg:"";
+            $("#reg .msgTip").html(msg);
+
+        }
+        regVal.callBack=function(data){
+            var url="<?php echo U('reg');?>";
+            $.ajax({
+                url:url,
+                type:"post",
+                dataTpye:"json",
+                data:data,
+                success:function(reg){
+                    
+                    if(reg.status==1){
+                        $("#reg").hide();
+                        $("#regSuccess").show();
+                    }else{
+                        $("#reg .msgTip").html(reg.info);
+                    }
+                }
+            })
+        }
+
+
+        $("#J_submitLogin").on("click",function(){
+            $("#formLogin").submit();
+        })
+
+        $("#J_submitReg").on("click",function(){
+            $("#formReg").submit();
+        })
+
+        $("#loginReg").find(".close").on("click",function(){
+            $("#loginReg").hide();
+        })
+
+        $(".login-reg").find("a").on("click",function(){
+            var type=$(this).attr("data-type");
+            
+            if(type=="login"){
+                $("#loginReg").show();
+                $("#login").show().siblings("div").hide();
+            }else if(type=="reg"){
+                $("#loginReg").show();
+                $("#reg").show().siblings("div").hide();
+            }
+        })
+
+    })()
+</script>
+
+</body>
+</html>

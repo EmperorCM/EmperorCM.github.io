@@ -1,0 +1,173 @@
+
+<div class="dialog" id="loginReg">
+    <div class="dialog-mask"></div>
+    <div id="flipper">
+        <div class="dialog-content" id="login">
+            <a href="javascript:void(0)" class="close">×</a>
+            <div class="dialog-tit clearfix">
+                <img src="{:C('WEB_URL')}Public/ruili/images/logo.jpg" />
+                <p><span>使用邮箱/手机号登陆</span></p>
+            </div>
+            <form action="" id="formLogin">
+                
+                <ul>
+                    <li style="padding:5px;">
+                        <em class="msgTip"></em>
+                    </li>
+                    <li>
+                        <input type="text" name="username" placeholder="邮箱或手机" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="pwd" placeholder="密码"  class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="button" value="立即登录" class="btnOrange" id="J_submitLogin">
+                    </li>
+                    <li>
+                        <span class="reg-link">还没有成为瑞丽会员？<a href="javascript:void(0)" id="J_toReg">点击注册》</a></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="dialog-content" id="reg">
+            <a href="javascript:void(0)" class="close">×</a>
+            <div class="dialog-tit clearfix">
+                <img src="{:C('WEB_URL')}Public/ruili/images/logo.jpg" />
+                <p><span>使用邮箱/手机号注册</span></p>
+            </div>
+            <form action="" id="formReg">
+                <ul>
+                    <li style="padding:5px;">
+                        <em class="msgTip"></em>
+                    </li>
+                    <li>
+                        <input type="text" name="username" placeholder="邮箱或手机" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="pwd" placeholder="密码" id="J_pwd"  class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="password" name="conpwd" placeholder="确认密码" class="label-ipt">
+                    </li>
+                    <li>
+                        <input type="button" value="立即注册" class="btnOrange" id="J_submitReg">
+                    </li>
+                    <li>
+                        <span class="reg-link">已有帐号？<a href="javascript:void(0)" id="J_toLogin">立即登录</a></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="dialog-content hide" id="regSuccess">
+            <div class="dialog-tit clearfix">
+                <img src="{:C('WEB_URL')}Public/ruili/images/logo.jpg" />
+                <p><span>注册成功</span></p>
+            </div>
+            <p class="mt20 pt20">
+                <a href="javascript:void(0)" class="btnGreen" onclick="window.history.go(0)">确定</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/Public/ruili/js/formValidate.js"></script>
+<script>
+    (function(){
+        $("#J_toReg").on("click",function(){
+            //$("#flipper").addClass("flip");
+            $("#reg").show();
+            $("#login").hide();
+        })
+        $("#J_toLogin").on("click",function(){
+            //$("#flipper").removeClass("flip");
+            $("#login").show();
+            $("#reg").hide();
+        })
+
+        var loginVal=new FormValidate(
+                {
+                    "username":{ "reg":/(([\w._-])+@([\w_-])+((\.[\w_-]{2,6}){1,2})$)|(^(13|15|17|18|14)[0-9]{9}$)|(^\d{5,10}$)/,"error":"请输入正确的手机或邮箱"},
+                    "pwd":{"reg":"pwd","error":"密码格式错误，请重试！"},
+                },"#formLogin",this.callBack,true);
+
+        loginVal.msg=function(obj, status, msg){
+            msg=!status?msg:"";
+            $("#login .msgTip").html(msg);
+
+        }
+        loginVal.callBack=function(data){
+            var url="{:U('login')}";
+            $.ajax({
+                url:url,
+                type:"post",
+                dataTpye:"json",
+                data:data,
+                success:function(reg){
+                    if(reg.status==1){
+                        window.history.go(0);
+                    }else{
+                        $("#login .msgTip").html(reg.info);
+                    }
+                }
+            })
+        }
+
+        var regVal=new FormValidate(
+                {
+                    "username":{ "reg":/(([\w._-])+@([\w_-])+((\.[\w_-]{2,6}){1,2})$)|(^(13|15|18|14)[0-9]{9}$)/,"error":"请输入正确的手机或邮箱"},
+                    "pwd":{"reg":"pwd","error":"密码格式错误，请重试！"},
+                    "conpwd":{"reg":"conPwd","pwdDom":"#J_pwd","error":"两次输入密码不一致！"},
+                },"#formReg",this.callBack,true);
+
+        regVal.msg=function(obj, status, msg){
+            msg=!status?msg:"";
+            $("#reg .msgTip").html(msg);
+
+        }
+        regVal.callBack=function(data){
+            var url="{:U('reg')}";
+            $.ajax({
+                url:url,
+                type:"post",
+                dataTpye:"json",
+                data:data,
+                success:function(reg){
+                    
+                    if(reg.status==1){
+                        $("#reg").hide();
+                        $("#regSuccess").show();
+                    }else{
+                        $("#reg .msgTip").html(reg.info);
+                    }
+                }
+            })
+        }
+
+
+        $("#J_submitLogin").on("click",function(){
+            $("#formLogin").submit();
+        })
+
+        $("#J_submitReg").on("click",function(){
+            $("#formReg").submit();
+        })
+
+        $("#loginReg").find(".close").on("click",function(){
+            $("#loginReg").hide();
+        })
+
+        $(".login-reg").find("a").on("click",function(){
+            var type=$(this).attr("data-type");
+            
+            if(type=="login"){
+                $("#loginReg").show();
+                $("#login").show().siblings("div").hide();
+            }else if(type=="reg"){
+                $("#loginReg").show();
+                $("#reg").show().siblings("div").hide();
+            }
+        })
+
+    })()
+</script>
